@@ -3,11 +3,3 @@ class Category < ActiveRecord::Base
 
   has_many :blog_entries
 end
-
-
-
-
-# Aladdin
-# Dumbo
-
-# every time you enter a category, it should retrieve the category_id if it exists, or create it if it doesnt.
